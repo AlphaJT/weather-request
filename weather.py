@@ -30,7 +30,7 @@ def get_temperature(json,n=0,t="3:00:00"):
 	
 	return e
 
-def get_humidity(json,n=0,t="3:00:00"):
+def get_humidity(json,n=0,t="3:00:00"): #it fetches humidity
 	import datetime
 	a=datetime.datetime.now().date()
 	if n==0 :
