@@ -17,7 +17,7 @@ def has_error(location,json):	#function to check if location is available or not
 # function to get attributes on nth day
 def get_temperature(json,n=0,t="3:00:00"):
 	import datetime
-	a=datetime.datetime.now().date()
+	a=datetime.datetime.now().date()#here current date tiime is set
 	if n==0 :
 		b=json.find(str(a)+' '+t)
 	else :
